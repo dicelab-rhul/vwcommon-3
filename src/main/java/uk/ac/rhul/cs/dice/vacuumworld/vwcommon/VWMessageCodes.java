@@ -1,0 +1,12 @@
+package uk.ac.rhul.cs.dice.vacuumworld.vwcommon;
+
+public enum VWMessageCodes {
+    HELLO_CONTROLLER_FROM_VIEW,
+    HELLO_MODEL_FROM_VIEW,
+    HELLO_MODEL_FROM_CONTROLLER,
+    HELLO_VIEW_FROM_CONTROLLER,
+    HELLO_CONTROLLER_FROM_MODEL,
+    HELLO_VIEW_FROM_MODEL,
+    INIT_GAME_FROM_VIEW,
+    UPDATE_FROM_MODEL;    
+}
