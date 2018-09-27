@@ -1,13 +1,13 @@
 package uk.ac.rhul.cs.dice.vacuumworld.vwcommon;
 
-import java.io.Serializable;
+import org.json.JSONObject;
 
 public abstract class VWAbstractMessage implements VWMessage {
     private static final long serialVersionUID = -3789213671006332038L;
     private VWMessageCodes code;
-    private Serializable content;
+    private transient JSONObject content;
     
-    public VWAbstractMessage(VWMessageCodes code, Serializable content) {
+    public VWAbstractMessage(VWMessageCodes code, JSONObject content) {
 	this.code = code;
 	this.content = content;
     }
@@ -18,7 +18,7 @@ public abstract class VWAbstractMessage implements VWMessage {
     }
     
     @Override
-    public Serializable getContent() {
+    public JSONObject getContent() {
 	return this.content;
     }
 }
