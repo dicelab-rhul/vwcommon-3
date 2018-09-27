@@ -2,6 +2,10 @@ bin/
 bin/*
 bin/**
 
+target/
+target/*
+target/**
+
 .directory
 *.jar
 *.class
