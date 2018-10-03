@@ -5,11 +5,11 @@ import org.json.JSONObject;
 public abstract class VWAbstractMessage implements VWMessage {
     private static final long serialVersionUID = -3789213671006332038L;
     private VWMessageCodes code;
-    private JSONObject content;
+    private String content;
     
     public VWAbstractMessage(VWMessageCodes code, JSONObject content) {
 	this.code = code;
-	this.content = content;
+	this.content = content == null ? null : content.toString();
     }
     
     @Override
@@ -19,6 +19,6 @@ public abstract class VWAbstractMessage implements VWMessage {
     
     @Override
     public JSONObject getContent() {
-	return this.content;
+	return this.content == null ? null : new JSONObject(this.content);
     }
 }
