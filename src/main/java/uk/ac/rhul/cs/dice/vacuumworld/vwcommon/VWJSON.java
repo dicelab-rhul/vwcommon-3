@@ -15,6 +15,7 @@ public class VWJSON {
     public static final String SENSOR_ACTUATOR_ID = "id";
     public static final String SENSOR_ACTUATOR_PURPOSE = "purpose";
     public static final String ACTUATORS = "actuators";
+    public static final String AVATAR_PORT = "port";
     public static final String DIRT = "dirt";
     public static final String DIRT_COLOR = "color";
     
@@ -37,6 +38,17 @@ public class VWJSON {
     public static final String ACTUATOR_SPEAK = "speak";
     
     public static final String BLANK = "blank";
+    
+    public static final String MODEL_HOSTNAME = "model_hostname";
+    public static final String CONTROLLER_HOSTNAME = "controller_hostname";
+    public static final String MODEL_PORT = "model_port";
+    public static final String ENVIRONMENT_PORT = "environment_port";
+    public static final String CONTROLLER_PORT = "controller_port";
+    public static final String WHITE_LOCATION_PATH = "white_location_path";
+    
+    public static final String AGENTS = "agents";
+    public static final String USERS = "users";
+    public static final String AGENTS_DEFAULT = "agents_default";
     
     private VWJSON() {}
 }
