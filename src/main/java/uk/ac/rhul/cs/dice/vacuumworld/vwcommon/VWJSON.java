@@ -1,5 +1,12 @@
 package uk.ac.rhul.cs.dice.vacuumworld.vwcommon;
 
+/**
+ * 
+ * This class contains the {@link String} identifiers for the JSON representation of VacuumWorld states.
+ * 
+ * @author cloudstrife9999
+ *
+ */
 public class VWJSON {
     public static final String SIZE = "size";
     public static final String NOTABLE_LOCATIONS = "notable_locations";
