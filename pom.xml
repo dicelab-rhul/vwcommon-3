@@ -20,26 +20,31 @@
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
 			<version>5.0.1</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.junit.vintage</groupId>
 			<artifactId>junit-vintage-engine</artifactId>
 			<version>4.12.1</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>uk.ac.rhul.cs.dice</groupId>
 			<artifactId>agentcontainers</artifactId>
 			<version>1.0.1-SNAPSHOT</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>uk.ac.rhul.cs.dice</groupId>
 			<artifactId>agentprototype</artifactId>
 			<version>1.0.1-SNAPSHOT</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
 			<version>20180813</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 	<build>
