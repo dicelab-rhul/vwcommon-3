@@ -20,5 +20,6 @@ public enum VWMessageCodes {
     PAUSE_FROM_VIEW,
     RESUME_FROM_VIEW,
     SAVE_AND_QUIT_FROM_VIEW,
-    QUIT_FROM_VIEW;
+    QUIT_FROM_VIEW,
+    FATAL_ERROR;
 }
