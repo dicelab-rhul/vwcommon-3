@@ -51,6 +51,11 @@
 			<artifactId>commons-io</artifactId>
 			<version>2.6</version>
 		</dependency>
+		<dependency>
+			<groupId>org.cloudstrife9999</groupId>
+			<artifactId>LogUtilities</artifactId>
+			<version>1.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
